@@ -34,3 +34,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# pnpm lock file
+pnpm-lock.yaml
+
+# e2e files
+/test-results/
+/playwright-report/
+/playwright/.cache/
