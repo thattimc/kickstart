@@ -9,4 +9,5 @@ module.exports = {
   '*': 'prettier --ignore-unknown --write',
   '*.{js,ts,tsx}': [buildEslintCommand],
   '*.{ts,tsx}': () => 'tsc --noEmit',
+  '*.prisma': () => 'prisma format',
 }
