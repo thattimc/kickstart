@@ -48,7 +48,7 @@ jobs:
 
       # Run the generate
       - name: Generate
-        run: pnpm run generate
+        run: pnpm run generate:prisma
 
       # Run the database migrations
       - name: Migrate the CI database
